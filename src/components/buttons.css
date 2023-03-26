@@ -1,0 +1,78 @@
+.button-container {
+  width: 210px;
+  height: 150px;
+  position: absolute;
+  top: 150px;
+  background-color: rgb(158, 155, 155);
+}
+
+.ipod-button-wheel {
+  border-radius: 50%;
+  background-color: rgb(240,240,240);
+  position: relative;
+  height: 130px;
+  width: 140px;
+  top: 205px;
+  left: 30px;
+}
+
+.ipod-button-wheel button {
+  border-style: none;
+  cursor: pointer;
+}
+
+.ipod-button-wheel .select {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 43px;
+  left: 45px;
+  background-color: rgb(209, 206, 206);
+  padding: 15px;
+  border-radius: 50%;
+}
+.ipod-button-wheel .select:hover {
+  background-color: rgb(182, 178, 178);
+}
+
+.ipod-button-wheel .menu {
+  position: absolute;
+  top: 15px;
+  left: 58px;
+}
+.ipod-button-wheel .menu:hover {
+  color: rgb(122, 122, 122);
+}
+
+.ipod-button-wheel .backward {
+  position: absolute;
+  top: 63px;
+  left: 10px;
+}
+.ipod-button-wheel .backward:hover {
+  color: rgb(122, 122, 122);
+}
+
+.ipod-button-wheel .forward {
+  position: absolute;
+  top: 63px;
+  right: 10px;
+}
+.ipod-button-wheel .forward:hover {
+  color: rgb(122, 122, 122);
+}
+
+.ipod-button-wheel .play-pause {
+  position: absolute;
+  top: 105px;
+  left: 52px;
+}
+.ipod-button-wheel .play-pause:hover {
+  color: rgb(122, 122, 122);
+}
+
+.ipod-button-wheel .fa-pause {
+  position: absolute;
+  left: 20px;
+}
